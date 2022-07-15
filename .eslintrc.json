@@ -1,0 +1,16 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "rules": {
+    "no-unused-vars": "off",
+    "semi": [2, "always"],
+    "prettier/prettier": ["error", {
+      "printWidth": 80,
+      "tabWidth": 2,
+      "singleQuote": true,
+      "trailingComma": "all",
+      "arrowParens": "avoid",
+      "semi": true,
+      "endOfLine": "auto"
+    }]
+  }
+}
